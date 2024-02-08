@@ -6,4 +6,4 @@ you can check progress at [the dev "branch"](https://devbranch.colonialcoders.co
 
 # disclaimer
 
-my commits (@akidinatophat) are just random shit that comes to my mind
+my commits (ale serrano) are just random shit that comes to my mind
