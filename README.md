@@ -1,7 +1,8 @@
 # bienvue
 
-THEN I SMOKED HER OUT AND ALL WE DID WAS LAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+this site is currently worked on by jayden mendez, yaniel garcia, and alejandro serrano.
 
+you can check progress at [the dev "branch"](https://devbranch.colonialcoders.com)
 
 # disclaimer
 
