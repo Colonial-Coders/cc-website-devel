@@ -22,7 +22,7 @@ document.querySelectorAll('.qa-button').forEach(button => {
 // Add more functionality to the photo slider
 const leftArrow = document.querySelector('.left-arrow');
 const rightArrow = document.querySelector('.right-arrow');
-const photos = ['gg.png','2.png']; // the photos here
+const photos = ['gg.png','2.png','gg.png']; // the photos here
 let currentPhotoIndex = 0;
 
 const updateSliderPhoto = () => {
