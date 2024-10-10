@@ -22,7 +22,7 @@ document.querySelectorAll('.qa-button').forEach(button => {
 // Add more functionality to the photo slider
 const leftArrow = document.querySelector('.left-arrow');
 const rightArrow = document.querySelector('.right-arrow');
-const photos = ['gg.png','2.png']; // the photos here
+const photos = ['gg.png','1.png','2.png']; // the photos here
 let currentPhotoIndex = 0;
 
 const updateSliderPhoto = () => {
@@ -43,4 +43,12 @@ rightArrow.addEventListener('click', () => {
 setInterval(() => {
     currentPhotoIndex = (currentPhotoIndex === photos.length - 1) ? 0 : currentPhotoIndex + 1;
     updateSliderPhoto();
-}, 10000); // 10000ms = 10 seconds
+}, 10000); // 10000ms = 10 seconds 
+
+function sendDiscordNotification() {
+    const webhookUrl = 'you know where to find it'; 
+    const message = {
+      content: 'Someone pressed the Join button on the website',
+      username: 'colonialcoders.com',
+    };
+  }
