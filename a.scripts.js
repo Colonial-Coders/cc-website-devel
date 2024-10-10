@@ -45,10 +45,7 @@ setInterval(() => {
     updateSliderPhoto();
 }, 10000); // 10000ms = 10 seconds 
 
-function sendDiscordNotification() {
-    const webhookUrl = 'you know where to find it'; 
-    const message = {
-      content: 'Someone pressed the Join button on the website',
-      username: 'colonialcoders.com',
-    };
-  }
+$("#joinbtn").click(function(){
+    $.post("https://analytics.colonialcoders.com/click/joinbtn");
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSdJ2Ic614-XYOYxw9EyDpsMo8uM6AypKhAs4d8Iw0WGppwhUQ/viewform', '_blank');
+});
